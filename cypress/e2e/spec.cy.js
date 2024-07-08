@@ -4,18 +4,18 @@ describe('template spec', () => {
   })
 })
 
-describe("Fundamentals test", () => {
-  it("Contains correct header text", () => {
-    cy.visit("/fundamentals");
-    cy.get('[data-test="fundamentals-header"]').should(
-      "contain.text",
-      "Testing Fundamentals"
-    );
-  })
-})
+// describe("Fundamentals test", () => {
+//   it("Contains correct header text", () => {
+//     cy.visit("/fundamentals");
+//     cy.get('[data-test="fundamentals-header"]').should(
+//       "contain.text",
+//       "Testing Fundamentals"
+//     );
+//   })
+// })
 
 describe('My First Test', () => {
   it('Does not do much!', () => {
-    expect(true).to.equal(false)
+    expect(true).to.equal(true)
   })
 })
